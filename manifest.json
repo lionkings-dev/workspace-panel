@@ -1,0 +1,19 @@
+{
+  "id": "workspace-panel",
+  "name": "Workspace Panel",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "Lionkings Name",
+  "license": "MIT",
+  "repository": "https://github.com/lionkings-dev/workspace-panel",
+  "description": "A simple example plugin",
+  "entryPoints": {
+    "Panel": "panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {}
+  }
+}
