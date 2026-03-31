@@ -8,12 +8,28 @@
   "repository": "https://github.com/lionkings-dev/workspace-panel",
   "description": "A simple example plugin",
   "entryPoints": {
-    "Panel": "panel.qml"
+    "main": "Main.qml",
+    "settings": "Settings.qml"
   },
   "dependencies": {
     "plugins": []
   },
   "metadata": {
-    "defaultSettings": {}
+    "defaultSettings": {
+      "edge": "left",
+      "autoHide": true,
+      "showOnWorkspaceSwitch": true,
+      "showDurationMs": 1200,
+      "showAnimationMs": 150,
+      "hideAnimationMs": 150,
+      "slideDistance": 16,
+      "hiddenScale": 0.9,
+      "showBorder": true,
+      "borderWidth": 1,
+      "borderColorKey": "outline",
+      "workspaceDisplayMode": "index",
+      "useCustomWorkspaceColor": false,
+      "workspaceColorKey": "primary"
+    }
   }
 }

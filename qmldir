@@ -1,0 +1,4 @@
+singleton NiriIpc 1.0 NiriIpc.qml
+PanelWorkspace 1.0 PanelWorkspace.qml
+Main 1.0 Main.qml
+Settings 1.0 Settings.qml
